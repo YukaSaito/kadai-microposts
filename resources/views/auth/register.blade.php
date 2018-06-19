@@ -1,6 +1,6 @@
 @extends('layouts.app')
-
 @section('content')
+
     <div class="text-center">
         <h1>Sign up</h1>
     </div>
@@ -10,7 +10,7 @@
 
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
-                    {!! Form::label('name', 'Name') !!}
+                    {!! Form::label('name', 'name') !!}
                     {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}
                 </div>
 

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-   @if (Auth::check())
+    @if (Auth::check())
         <div class="row">
             <aside class="col-md-4">
             </aside>
